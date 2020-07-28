@@ -512,6 +512,8 @@ static void __init mm_init(void)
 
 asmlinkage __visible void __init start_kernel(void)
 {
+	while(1) {}
+	
 	char *command_line;
 	char *after_dashes;
 
